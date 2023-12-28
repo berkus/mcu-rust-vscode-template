@@ -1,0 +1,12 @@
+[target.{{mcu_target}}]
+runner = 'probe-rs run --chip {{config_mcu}}'
+rustflags = [
+    "-C", "link-arg=-Tlink.x",
+    "-C", "link-arg=-Tdefmt.x",
+]
+
+[build]
+target = "{{mcu_target}}"
+
+[env]
+DEFMT_LOG = "info"
