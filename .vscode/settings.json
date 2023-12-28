@@ -1,0 +1,7 @@
+{
+    "cmake.configureOnOpen": false,
+    "rust-analyzer.cargo.target": "{{mcu_target}}",
+    "rust-analyzer.linkedProjects": [
+        "./Cargo.toml"
+    ],
+}

@@ -1,0 +1,18 @@
+{
+  // See http://go.microsoft.com/fwlink/?LinkId=827846
+  // for the documentation about the extensions.json format
+  "recommendations": [
+    "serayuzgur.crates",
+    "tamasfe.even-better-toml",
+    "notblank00.hexeditor",
+    "vadimcn.vscode-lldb",
+    "probe-rs.probe-rs-debugger",
+    "mcu-debug.debug-tracker-vscode",
+    "mcu-debug.memory-view",
+    "mcu-debug.rtos-views",
+    "cortex-debug.svd-viewer",
+    "rust-lang.rust-analyzer",
+    "TabNine.tabnine-vscode",
+    "vscode-icons-team.vscode-icons"
+  ]
+}
