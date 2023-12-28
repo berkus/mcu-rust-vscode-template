@@ -1,0 +1,11 @@
+[placeholders]
+description = { type="string", prompt="Crate description?" }
+mcu_target = { type="string", prompt="Target platform triple", default="thumbv7em-none-eabihf"}
+
+[placeholders.config_mcu]
+type = "string"
+prompt = "Please select MCU model"
+choices = ["stm32g474retx", "CUSTOM_MCU", "Three", "Four"]
+
+[hooks]
+post = ["rename.rhai"]
